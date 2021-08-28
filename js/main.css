@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Quantico';
+  src: url('../img/Quantico-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#FAFAFA;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#palette {
+    width: 230px;
+    height: 100%;
+    overflow: auto;
+}
+
+#paper {
+    width: calc(100% - 00px);
+    height: 100%;
+}
+
+#properties {
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+}
+
+#renderCanvas {
+	width: 100%;
+	height: 100%;
+	touch-action: none;
+}
+
+.draggable {
+    background-color: #e4e4e4;
+    margin: 5px 0;
+    padding: 5px 0;
+    cursor: pointer;
+}
+

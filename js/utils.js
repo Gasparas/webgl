@@ -1,0 +1,3 @@
+
+
+const modelsPath = "models/rooms/"
