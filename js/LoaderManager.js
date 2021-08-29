@@ -24,6 +24,7 @@ export default class LoaderManager {
       "chicagoGallery.babylon"
     );
 
+/*
     hallTask.onSuccess = (task) => {
       //Test --On Mesh Success
 
@@ -34,6 +35,7 @@ export default class LoaderManager {
       this.hallMesh = task.loadedMeshes[395]; //Hall
     };
 
+*/  
     this.assetsManager.onProgress = (
       remainingCount,
       totalCount,
