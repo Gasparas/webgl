@@ -18,7 +18,10 @@ export default class LoaderManager {
 
     //room's
     var hallTask = this.assetsManager.addMeshTask(
-
+      "hall_Task",
+      "",
+      "models/",
+      "test-import1.glb"
     );
 
     hallTask.onSuccess = (task) => {
