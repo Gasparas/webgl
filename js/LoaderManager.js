@@ -20,8 +20,8 @@ export default class LoaderManager {
     var hallTask = this.assetsManager.addMeshTask(
       "hall_Task",
       "",
-      "models/gallery/",
-      "chicagoGallery.babylon"
+      "models/",
+      "test_import.babylon"
     );
 
 /*
@@ -35,7 +35,7 @@ export default class LoaderManager {
       this.hallMesh = task.loadedMeshes[395]; //Hall
     };
 
-*/  
+*/
     this.assetsManager.onProgress = (
       remainingCount,
       totalCount,
