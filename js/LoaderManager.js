@@ -20,7 +20,7 @@ export default class LoaderManager {
     var hallTask = this.assetsManager.addMeshTask(
       "hall_Task",
       "",
-      "models/gallary/",
+      "models/gallery/",
       "chicagoGallery.babylon"
     );
 
