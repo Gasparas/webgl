@@ -155,12 +155,11 @@ export default class MainSceneManager {
       90 / 255,
       90 / 255
     );
-    
-/*
+
     // var box = BABYLON.MeshBuilder.CreateBox("MainBox", {size:1}, this.scene);
     this.alphaMaterial = new BABYLON.StandardMaterial("alphaMat", this.scene);
     this.alphaMaterial.alpha = 0;
-
+/*
     var ground = BABYLON.MeshBuilder.CreateGround(
       "ground",
       { width: 250, height: 250 },
@@ -168,16 +167,18 @@ export default class MainSceneManager {
     );
     ground.checkCollisions = true;
     ground.material = this.alphaMaterial;
-
+*/
     // this.camBox.material = this.alphaMaterial;
     this.MainCamera.applyGravity = true;
   }
+  
+
   //#region controls
   detachCameraControl() {
     this.MainCamera.detachControl(this.game.canvas);
   }
   //#endregion
-*/
+
 
   setupMobile() {
     let adt = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
