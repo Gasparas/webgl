@@ -71,7 +71,6 @@ export default class MainSceneManager {
       false
     );
 
-    // ///
     // this.keys = { left: 37, right: 39, up: 38, down: 40 };
 
     this.createCamera();
@@ -156,7 +155,8 @@ export default class MainSceneManager {
       90 / 255,
       90 / 255
     );
-
+    
+/*
     // var box = BABYLON.MeshBuilder.CreateBox("MainBox", {size:1}, this.scene);
     this.alphaMaterial = new BABYLON.StandardMaterial("alphaMat", this.scene);
     this.alphaMaterial.alpha = 0;
@@ -177,6 +177,7 @@ export default class MainSceneManager {
     this.MainCamera.detachControl(this.game.canvas);
   }
   //#endregion
+*/
 
   setupMobile() {
     let adt = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
