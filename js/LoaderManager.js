@@ -21,7 +21,7 @@ export default class LoaderManager {
       "hall_Task",
       "",
       "models/",
-      "obj-test.babylon"
+      "obj-test.glb"
     );
 
     hallTask.onSuccess = (task) => {
