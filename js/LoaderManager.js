@@ -20,8 +20,8 @@ export default class LoaderManager {
     var hallTask = this.assetsManager.addMeshTask(
       "hall_Task",
       "",
-      "models/",
-      "test-import1.glb"
+      "models/gallery/",
+      "chicagoGallery.babylon"
     );
 
     hallTask.onSuccess = (task) => {
